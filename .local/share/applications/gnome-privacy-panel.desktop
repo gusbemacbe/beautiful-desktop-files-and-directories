@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Privacy
+Comment=Protect your personal information and control what others might see
+Icon=preferences-system-privacy
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center privacy
+Actions=
+Categories=DesktopSettings;GNOME;GTK;Settings;SystemSettings;X-GNOME-AccountSettings;X-GNOME-Settings-Panel;
+Keywords=screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;network;identity;
+StartupNotify=true

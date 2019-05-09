@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=AutoKey
+GenericName=Keyboard Automation
+Comment=Program keyboard shortcuts
+Icon=autokey
+Exec=autokey-gtk -c
+Actions=
+Categories=Utility;

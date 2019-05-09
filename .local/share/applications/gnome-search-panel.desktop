@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Search
+Comment=Control which applications show search results in the Activities Overview
+Icon=preferences-system-search
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center search
+Actions=
+Categories=DesktopSettings;GNOME;GTK;Settings;SystemSettings;X-GNOME-PersonalizationSettings;X-GNOME-Settings-Panel;
+Keywords=Search;Find;Index;Hide;Privacy;Results;
+StartupNotify=true

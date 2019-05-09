@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Meteo
+GenericName=Meteo
+Comment=Forecast App for desktop
+Icon=com.gitlab.bitseater.meteo
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=com.gitlab.bitseater.meteo com.gitlab.bitseater.meteo
+Actions=
+Categories=Geography;Geology;Utility;
+Keywords=Meteo;Weather;Forecast;Temperature;Wind;Snow;Rain;
+StartupNotify=true
+Hidden=true

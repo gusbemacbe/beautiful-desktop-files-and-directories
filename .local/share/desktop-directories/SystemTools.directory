@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.1
+Type=Directory
+Name=System Settings
+NoDisplay=true
+Comment=Core system apps
+Icon=gnome-settings

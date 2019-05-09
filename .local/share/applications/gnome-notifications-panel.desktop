@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Notifications
+Comment=Control which notifications are displayed and what they show
+Icon=preferences-system-notifications
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center notifications
+Actions=
+Categories=DesktopSettings;GNOME;GTK;Settings;SystemSettings;X-GNOME-PersonalizationSettings;X-GNOME-Settings-Panel;
+Keywords=Notifications;Banner;Message;Tray;Popup;
+StartupNotify=true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Thunderbolt
+Comment=Manage Thunderbolt devices
+Icon=thunderbolt
+Exec=gnome-control-center thunderbolt
+Actions=
+Categories=GNOME;HardwareSettings;Settings;X-GNOME-DevicesSettings;X-GNOME-Other;X-GNOME-Settings-Panel;
+Keywords=Thunderbolt;
+StartupNotify=true

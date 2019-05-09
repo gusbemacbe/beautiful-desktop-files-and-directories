@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Region &amp; Language
+Comment=Select your display language, formats, keyboard layouts and input sources
+Icon=preferences-desktop-locale
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center region
+Actions=
+Categories=DesktopSettings;GNOME;GTK;Settings;SystemSettings;X-GNOME-PersonalizationSettings;X-GNOME-Settings-Panel;
+Keywords=Language;Layout;Keyboard;Input;
+StartupNotify=true

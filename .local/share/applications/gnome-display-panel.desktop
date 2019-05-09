@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Displays
+Comment=Choose how to use connected monitors and projectors
+Icon=preferences-desktop-display
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center display
+Actions=
+Categories=GNOME;GTK;HardwareSettings;Settings;SystemSettings;X-GNOME-DevicesSettings;X-GNOME-Settings-Panel;
+Keywords=Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;redshift;colour;sunset;sunrise;
+StartupNotify=true

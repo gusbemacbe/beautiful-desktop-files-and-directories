@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=PDF Slicer
+Comment=Extract and rotate pages of a PDF document
+Icon=com.github.junrrein.PDFSlicer
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/pdfslicer --file-forwarding com.github.junrrein.PDFSlicer @@u %U @@
+Actions=
+MimeType=application/pdf;
+Categories=Office;Utility;
+StartupNotify=true
+Hidden=true

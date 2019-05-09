@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories = Utilities; 
+Comment = Search like a Pro
+Exec = krunner
+GenericName = Search Box
+Icon = krunner
+Keywords = browser; search; spotlight; utilities; web; 
+Name = Krunner
+StartupNotify = true
+StartupWMClass = krunner
+Terminal = false
+Type = Application
+Version = 1.0

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Universal Access
+Comment=Make it easier to see, hear, type, point and click
+Icon=preferences-desktop-accessibility
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center universal-access
+Actions=
+Categories=GNOME;GTK;Settings;SystemSettings;X-GNOME-PersonalizationSettings;X-GNOME-Settings-Panel;
+Keywords=Keyboard;Mouse;a11y;Accessibility;Contrast;Cursor;Sound;Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Speed;Assist;Repeat;Blink;visual;hearing;audio;typing;
+StartupNotify=true

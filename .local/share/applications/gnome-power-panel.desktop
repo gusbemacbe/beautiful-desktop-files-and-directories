@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Power
+Comment=View your battery status and change power saving settings
+Icon=gnome-power-manager
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center power
+Actions=
+Categories=DesktopSettings;GNOME;GTK;HardwareSettings;Settings;SystemSettings;X-GNOME-Settings-Panel;
+Keywords=Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;
+StartupNotify=true

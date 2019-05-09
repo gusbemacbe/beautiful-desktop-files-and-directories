@@ -1,6 +1,6 @@
 [Desktop Entry]
-Version=1.1
-Type=Directory
-Name=GTK
-Comment=Apps designed for GNOME/GTK panel
-Icon=gnome
+Comment = Apps designed for GNOME/GTK panel
+Icon = desktop-environment-gnome
+Name = GTK
+Type = Directory
+Version = 1.1

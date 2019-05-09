@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories = KDE; Qt; Utility;
+Comment[ca] = Un canviador de noms per lots
+Comment[de] = Mehrfachumbennungswerkzeug
+Comment[el] = Μια εφαρμογή ομαδικής μετονομασίας
+Comment[es] = Un cambiador de nombres por lotes
+Comment[fr] = Un outil de renommage par lot
+Comment[it] = Uno strumento di rinomina di massa
+Comment[nl] = Een batch hulpmiddel voor hernoemen
+Comment[pt] = Um utilitário de mudança de nomes de ficheiros em lote
+Comment[uk] = Засіб для пакетного перейменовування
+Comment = A batch renamer
+Exec = krename -qwindowtitle "%c" %i %U
+Icon = krename
+Name = KRename
+Terminal = false
+Type = Application
+X-DocPath = krename/index.html

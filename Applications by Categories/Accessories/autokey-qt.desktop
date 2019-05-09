@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=AutoKey (Qt)
+GenericName=Keyboard Automation
+Comment=Program keyboard shortcuts
+Icon=autokey
+Exec=autokey-qt
+Actions=
+Categories=Utility;

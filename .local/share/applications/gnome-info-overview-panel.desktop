@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=About
+Comment=View information about your system
+Icon=help-about
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center info-overview
+Actions=
+Categories=GNOME;GTK;Settings;SystemSettings;X-GNOME-DetailsSettings;X-GNOME-Settings-Panel;
+Keywords=device;system;information;memory;processor;version;default;application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;
+StartupNotify=true

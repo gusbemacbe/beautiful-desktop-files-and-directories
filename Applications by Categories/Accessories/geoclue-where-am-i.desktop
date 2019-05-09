@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment = Find your current location
+Exec = /usr/lib/geoclue-2.0/demos/where-am-i
+GenericName = Demo geolocation application
+Icon = mark-location
+Keywords = geolocation; maps;
+Name = Where am I?
+NoDisplay = true
+Terminal = true
+Type = Application
+X-Geoclue-Reason = It allows your current location to be shown on terminal.

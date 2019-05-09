@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec = /usr/lib/geoclue-2.0/demos/agent
+Icon = mark-location
+Name = Geoclue Demo Agent
+NotShowIn = GNOME; Name = Geoclue Demo agent
+GenericName = Demo geoclue agent
+Keywords = geolocation; NoDisplay = true
+Terminal = false
+Type = Application

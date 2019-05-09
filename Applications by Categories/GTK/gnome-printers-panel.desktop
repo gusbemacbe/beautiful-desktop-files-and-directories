@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Printers
+Comment=Add printers, view printer jobs and decide how you want to print
+Icon=printer
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center printers
+Actions=
+Categories=GNOME;GTK;HardwareSettings;Settings;SystemSettings;X-GNOME-DevicesSettings;X-GNOME-Settings-Panel;
+Keywords=Printer;Queue;Print;Paper;Ink;Toner;
+StartupNotify=true

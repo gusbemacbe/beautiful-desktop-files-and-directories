@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories = Core; System;
+Comment = Budgie Background Services
+Exec = budgie-daemon
+Icon = budgie-daemon
+Name = Budgie Background Services
+NoDisplay = true
+OnlyShowIn = Budgie
+StartupNotify = true
+Terminal = false
+Type = Application
+X-GNOME-AutoRestart = true
+X-GNOME-Autostart-Notify = true
+X-GNOME-Autostart-Phase = Desktop

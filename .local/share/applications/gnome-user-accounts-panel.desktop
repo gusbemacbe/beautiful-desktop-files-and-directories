@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Users
+Comment=Add or remove users and change your password
+Icon=system-users
+OnlyShowIn=GNOME;Unity;
+Exec=gnome-control-center user-accounts
+Actions=
+Categories=GNOME;GTK;Settings;SystemSettings;X-GNOME-DetailsSettings;X-GNOME-Settings-Panel;
+Keywords=Login;Name;Fingerprint;Avatar;Logo;Face;Password;
+StartupNotify=true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Krusader
+GenericName=File Manager
+Comment=Twin-Panel File Manager
+Icon=krusader_user
+Exec=krusader -qwindowtitle %c %u
+Actions=
+Categories=FileManager;
+StartupWMClass=krusader

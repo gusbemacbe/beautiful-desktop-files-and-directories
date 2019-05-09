@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec = /usr/bin/hp-uiscan
+Icon = hplip
+Name = HP Scan Utility
+Terminal = false
+Type = Application
+Version = 1.0
