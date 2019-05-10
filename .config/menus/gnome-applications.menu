@@ -7,14 +7,15 @@
 	<DefaultAppDirs/>
 	<DefaultDirectoryDirs/>
 	<DefaultMergeDirs/>
-	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	
+	<!-- <MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile> -->
 
 	<Menu>
 		<Name>Accessories</Name>
+		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
 		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
 		<Directory>Utility.directory</Directory>
-		<Layout>
-			<Merge type="menus" />
+		<Include>
 				<Filename>autokey-gtk.desktop</Filename>
 				<Filename>autokey-qt.desktop</Filename>
 				<Filename>bluetooth-sendto.desktop</Filename>
@@ -31,8 +32,7 @@
 				<Filename>org.kde.krename.desktop</Filename>
 				<Filename>org.kde.spectacle.desktop</Filename>
 				<Filename>org.xfce.Catfish.desktop</Filename>
-			<Merge type="files" />
-		</Layout>
+		</Include>
 	</Menu>
 
 	<Layout>
