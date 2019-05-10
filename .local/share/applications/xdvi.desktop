@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories = Graphics; Viewer;
-Exec = xdvi %f
-GenericName = DVI Viewer
-Icon  =  xdvi
-Keywords = documents;
-Name = XDvi
-Terminal = false
-Type = Application

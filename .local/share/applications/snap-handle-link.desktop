@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories = Applications; Utilities;
-Comment = Prompt the user to install gnome-software then pass control to it
-Exec = /bin/snap handle-link %U
-Icon = snapcraft
-MimeType = x-scheme-handler/snap;
-Name = Handler for snap:// URIs
-NoDisplay = true
-Type = Application
