@@ -1,5 +1,9 @@
 ## Basque, Esperanto, Georgian, Greek, Japanese, Romanian, Russian and Ukrainian
 
+* Ark
+  Comment = Work with file archives
+  GenericName = Archiving Tool
+
 * Autokey
   Comment = Program keyboard shortcuts
   GenericName = Keyboard Automation
@@ -21,6 +25,23 @@
   GenericName = Advanced calculator
   Keywords = arithmetic; calculation; financial; scientific;
   Name = GNOME Calculator
+
+* GNOME Maps
+  Comment = A simple maps application
+  GenericName = Maps
+  Keywords = geolocation; maps;
+  Name = GNOME Maps
+
+* GNOME Seahorse
+  Comment = Manage your passwords and encryption keys
+  GenericName = Passwords manager
+  Keywords = encryption; keyring; password; security; sign; ssh;
+  Name = GNOME Passwords and Keys
+
+* Klipper
+  Comment = A cut and paste historic utility
+  GenericName = Clipboard Tool
+  Keywords = clipboard; copy; cut; paste; historic;
 
 * Krunner
   Comment = Search like a Pro

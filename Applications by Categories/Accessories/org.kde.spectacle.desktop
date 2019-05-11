@@ -1,26 +1,93 @@
 [Desktop Entry]
-Version=1.1
-Type=Application
-Name=Spectacle
-GenericName=Screenshot Capture Utility
-Icon=spectacle
-Exec=qdbus org.kde.Spectacle / StartAgent
-Actions=FullScreenScreenShot;CurrentMonitorScreenShot;ActiveWindowScreenShot;RectangularRegionScreenShot;
-Categories=Photography;Utility;
-Keywords=snapshot;capture;print;screenshot;snipping;snip;
+Actions = ActiveWindowScreenShot; CurrentMonitorScreenShot; FullScreenScreenShot; RectangularRegionScreenShot;
+Categories = Accessories; Photography; Utility;
+Comment = Take a screenshot like a Pro
+Comment[ca] = Feu una captura de pantalla com un professional
+Comment[de] = Mache einen Screenshot wie ein Profi
+Comment[es] = Toma una captura de pantalla como un profesional
+Comment[fr] = Prendez une capture d’écran comme un pro
+Comment[it] = Fai uno screenshot come un Pro
+Comment[nl] = Neem een ​​screenshot zoals een Pro
+Comment[pt] = Faz uma captura de ecrã como um profissional
+Comment[pt_BR] = Faça uma captura de tela como um profissional
+Comment[pt_PT] = Faz uma captura de ecrã como um profissional
+Exec = qdbus org.kde.Spectacle / StartAgent
+GenericName = Screenshot capture utility
+GenericName[ca] = Utilitat de captura de pantalla
+GenericName[de] = Screenshot-Programm
+GenericName[es] = Utilidad de captura de pantalla
+GenericName[fr] = Utilitaire de capture d’écran
+GenericName[it] = Utilità di screenshot
+GenericName[nl] = Screenshot-programma
+GenericName[pt] = Utilitário de captura de ecrã
+GenericName[pt_BR] = Utilitário de captura de tela
+GenericName[pt_PT] = Utilitário de captura de ecrã
+Icon = spectacle
+Keywords = capture; print; screenshot; snapshot; snip; snipping;
+Keywords[ca] = capturar; captura de pantalla;
+Keywords[de] = ausschneiden; Bildschirmfoto; einfügen; schneiden;
+Keywords[es] = capturar; captura de pantalla; recorte;
+Keywords[fr] = capture d’écran; capturer; couper;
+Keywords[it] = catturare; immagine dello schermo; schreenshot; snapshot; snip; snipping;
+Keywords[nl] = knip; knippen; screenshot;
+Keywords[pt] = capturar; captura de ecrã; copiar; colar; recorte;
+Keywords[pt_BR] = capturar; captura de tela; copiar; colar; print; recorte; screenshot;
+Keywords[pt] = capturar; captura de ecrã; copiar; colar; recorte;
+Name = Spectacle
+StartupNotify = true
+StartupWMClass = spectacle
+Type = Application
+Version = 1.1
 
 [Desktop Action FullScreenScreenShot]
-Name=Capture Entire Desktop
-Exec=qdbus org.kde.Spectacle / FullScreen false
+Name = Capture the entire desktop
+Name[ca] = Captura l’escriptori complet
+Name[de] = Erfasse den gesamten Desktop
+Name[es] = Capture todo el escritorio
+Name[fr] = Capturer tout le bureau
+Name[it] = Cattura l’intero desktop
+Name[nl] = Neem gehele desktop op 
+Name[pt] = Capture a área do trabalho inteira
+Name[pt_BR] = Capture o desktop inteiro
+Name[pt_PT] = Capture a área do trabalho inteira
+Exec = qdbus org.kde.Spectacle / FullScreen false
 
 [Desktop Action CurrentMonitorScreenShot]
-Name=Capture Current Monitor
-Exec=qdbus org.kde.Spectacle / CurrentScreen false
+Name = Capture the current monitor
+Name[ca] = Captura el monitor actual
+Name[de] = Erfasse den aktuellen Monitor
+Name[es] = Captura el monitor corriente
+Name[fr] = Capturez le moniteur actuel
+Name[it] = Cattura il monitor corrente
+Name[nl] = Neem de actuele monitor op
+Name[pt] = Capture o monitor actual
+Name[pt_BR] = Capture o monitor atual
+Name[pt_PT] = Capture o monitor actual
+Exec = qdbus org.kde.Spectacle / CurrentScreen false
 
 [Desktop Action ActiveWindowScreenShot]
-Name=Capture Active Window
-Exec=qdbus org.kde.Spectacle / ActiveWindow true false
+Name = Capture the active window
+Name[ca] = Captura la finestra activa
+Name[de] = Erfasse aktives Fenster
+Name[es] = Captura la ventana activa
+Name[fr] = Capturez la fenêtre active
+Name[it] = Cattura la finestra attiva
+Name[nl] = Neem de actieve venster op
+Name[pt] = Capture a janela activa
+Name[pt_BR] = Capture a janela ativa
+Name[pt_PT] = Capture a janela activa
+Exec = qdbus org.kde.Spectacle / ActiveWindow true false
 
 [Desktop Action RectangularRegionScreenShot]
-Name=Capture Rectangular Region
-Exec=qdbus org.kde.Spectacle / RectangularRegion true
+Name = Capture the rectangular region
+Name[ca] = Captura la regió rectangular
+Name[de] = Erfasse den rechteckigen Bereich
+Name[es] = Captura la región rectangular
+Name[fr] = Capture§ la région rectangulaire
+Name[it] = Cattura la regione rettangolare
+Name[nl] = Neem het rechthoekige gebied op
+Name[pt] = Capture a região retangular
+Name[pt_BR] = Capture a região retangular
+Name[pt_PT] = Capture a região retangular
+Exec = qdbus org.kde.Spectacle / RectangularRegion true
+
