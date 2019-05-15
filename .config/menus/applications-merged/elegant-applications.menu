@@ -1,0 +1,24 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+ <Menu>
+
+  <Name>Applications</Name>
+
+  <Menu>
+    <Name>GNOME</Name>
+    <Directory>GNOME.directory</Directory>
+		<Include>
+			<And>
+				<Category>GNOME</Category>
+				<Filename>org.gnome.Calculator.desktop</Filename>
+				<Filename>org.gnome.FileRoller.desktop</Filename>
+				<Filename>org.gnome.Maps.desktop</Filename>
+				<Filename>org.gnome.Nautilus.desktop</Filename>
+				<Filename>org.gnome.Photos.desktop</Filename>
+				<Filename>org.gnome.seahorse.Application.desktop</Filename>
+				<Filename>org.gnome.Totem.desktop</Filename>
+			</And>
+		</Include>
+  </Menu>
+
+  </Menu>
