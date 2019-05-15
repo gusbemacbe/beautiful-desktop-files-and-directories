@@ -39,18 +39,18 @@ StartupWMClass = spectacle
 Type = Application
 Version = 1.1
 
-[Desktop Action FullScreenScreenShot]
-Name = Capture the entire desktop
-Name[ca] = Captura l’escriptori complet
-Name[de] = Erfasse den gesamten Desktop
-Name[es] = Capture todo el escritorio
-Name[fr] = Capturer tout le bureau
-Name[it] = Cattura l’intero desktop
-Name[nl] = Neem gehele desktop op 
-Name[pt] = Capture a área do trabalho inteira
-Name[pt_BR] = Capture o desktop inteiro
-Name[pt_PT] = Capture a área do trabalho inteira
-Exec = qdbus org.kde.Spectacle / FullScreen false
+[Desktop Action ActiveWindowScreenShot]
+Name = Capture the active window
+Name[ca] = Captura la finestra activa
+Name[de] = Erfasse aktives Fenster
+Name[es] = Captura la ventana activa
+Name[fr] = Capturez la fenêtre active
+Name[it] = Cattura la finestra attiva
+Name[nl] = Neem de actieve venster op
+Name[pt] = Capture a janela activa
+Name[pt_BR] = Capture a janela ativa
+Name[pt_PT] = Capture a janela activa
+Exec = qdbus org.kde.Spectacle / ActiveWindow true false
 
 [Desktop Action CurrentMonitorScreenShot]
 Name = Capture the current monitor
@@ -65,18 +65,18 @@ Name[pt_BR] = Capture o monitor atual
 Name[pt_PT] = Capture o monitor actual
 Exec = qdbus org.kde.Spectacle / CurrentScreen false
 
-[Desktop Action ActiveWindowScreenShot]
-Name = Capture the active window
-Name[ca] = Captura la finestra activa
-Name[de] = Erfasse aktives Fenster
-Name[es] = Captura la ventana activa
-Name[fr] = Capturez la fenêtre active
-Name[it] = Cattura la finestra attiva
-Name[nl] = Neem de actieve venster op
-Name[pt] = Capture a janela activa
-Name[pt_BR] = Capture a janela ativa
-Name[pt_PT] = Capture a janela activa
-Exec = qdbus org.kde.Spectacle / ActiveWindow true false
+[Desktop Action FullScreenScreenShot]
+Name = Capture the entire desktop
+Name[ca] = Captura l’escriptori complet
+Name[de] = Erfasse den gesamten Desktop
+Name[es] = Capture todo el escritorio
+Name[fr] = Capturer tout le bureau
+Name[it] = Cattura l’intero desktop
+Name[nl] = Neem gehele desktop op 
+Name[pt] = Capture a área do trabalho inteira
+Name[pt_BR] = Capture o desktop inteiro
+Name[pt_PT] = Capture a área do trabalho inteira
+Exec = qdbus org.kde.Spectacle / FullScreen false
 
 [Desktop Action RectangularRegionScreenShot]
 Name = Capture the rectangular region

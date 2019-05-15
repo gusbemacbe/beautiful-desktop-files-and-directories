@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name = File Manager
+Name[ca] = Gestor de fitxers
+Name[de] = Dateiverwaltung
+Name[el] = Διαχειριστής αρχείων
+Name[es] = Gestor de archivos
+Name[eu] = Fitxategi-kudeatzailea
+Name[fr] = Gestionnaire de fichiers
+Name[it] = Gestore dei file
+Name[ja] = ファイルマネージャ
+Name[nl] = Bestandsbeheerder
+Name[pt_BR] = Gerenciador de arquivos
+Name[pt_PT] = Gestor de Ficheiros
+Name[pt] = Gestor de Ficheiros
+Name[ru] = Диспетчер файлов
+Name[uk] = Менеджер файлів
+Icon = system-file-manager
+Type = Directory
