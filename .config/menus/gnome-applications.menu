@@ -10,7 +10,7 @@
 	<Menu>
 		<Name>Accessories</Name>
 		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
-		<Directory>Utility.directory</Directory>
+		<Directory>Accessories.directory</Directory>
 		<Include>
 				<Filename>autokey-gtk.desktop</Filename>
 				<Filename>autokey-qt.desktop</Filename>
@@ -86,10 +86,29 @@
 		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
 	</Menu>
 
+	<Menu>
+		<Name>Internet</Name>
+		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
+		<Directory>Internet.directory</Directory>
+		<Include>
+				<Filename>avahi-discover.desktop</Filename>
+				<Filename>bssh.desktop</Filename>
+				<Filename>bvnc.desktop</Filename>
+				<Filename>chromium.desktop</Filename>
+				<Filename>firefox-developer-edition.desktop</Filename>
+				<Filename>insync-helper.desktop</Filename>
+				<Filename>insync.desktop</Filename>
+				<Filename>org.kde.knetattach.desktop</Filename>
+				<Filename>transmission-gtk.desktop</Filename>
+		</Include>
+		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
+	</Menu>
+
 	<Layout>
 		<Menuname>Accessories</Menuname>
 		<Menuname>File Managers</Menuname>
 		<Menuname>GNOME</Menuname>
 		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
 	</Layout>
 </Menu>
