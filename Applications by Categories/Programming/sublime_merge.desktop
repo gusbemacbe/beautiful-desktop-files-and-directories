@@ -1,14 +1,51 @@
 [Desktop Entry]
-Actions = Document; WIndow;
-Categories = Development; Git;
-Comment = Sublime Merge is a Git client, from the makers of Sublime Text
-Exec = /opt/sublime_merge/sublime_merge %F
-GenericName = Git Client
-Icon = sublime-merge
-MimeType = text/plain;
-Name = Sublime Merge
-StartupNotify = true
-StartupWMClass = sublime_merge
-Terminal = false
-Type = Application
-Version = 1.0
+Actions  =  Document; Window;
+Categories  =  Development; Git; Programming;
+Comment  =  Sublime Merge is a Git client, from the makers of Sublime Text
+Comment[ca]  =  Sublime Merge és un client Git, dels creadors de Sublime Text
+Comment[de]  =  Sublime Merge ist ein Git-Client von den Machern von Sublime Text
+Comment[eo]  =  Sublima Merge estas Git-kliento, de la kreintoj de Sublime Text
+Comment[es]  =  Sublime Merge es un cliente Git, de los creadores de Sublime Text.
+Comment[eu]  =  Sublime Merge Git bezeroa da, Sublime Text arduradunen eskutik.
+Comment[fr]  =  Sublime Merge est un client Git, créé par les développeurs de Sublime Text.
+Comment[it]  =  Sublime Merge è un client Git, dai creatori di Sublime Text
+Comment[nl]  =  Sublime Merge is een Git-client, van de makers van Sublime Text
+Comment[pt]  =  Sublime Merge é um cliente Git, dos criadores do Sublime Text
+Comment[ro]  =  Sublime Merge este un client Git, de producătorii de Sublime Text
+Comment[ru]  =  Sublime Merge - это клиент Git от создателей Sublime Text
+Comment[uk]  =  Sublime Merge - це клієнт Git, від виробників Sublime Text
+Exec  =  /opt/sublime_merge/sublime_merge %F
+GenericName  =  Git Client
+GenericName[ca]  =  Client Git
+GenericName[de]  =  Git-Client
+GenericName[eo]  =  Git-Kliento
+GenericName[es]  =  Cliente Git
+GenericName[eu]  =  Git Bezeroa
+GenericName[fr]  =  Client Git
+GenericName[it]  =  Client Git
+GenericName[nl]  =  Git-Client
+GenericName[pt_BR]  =  Cliente Git
+GenericName[pt_PT]  =  Cliente Git
+GenericName[pt]  =  Cliente Git
+GenericName[ro]  =  CLient Git
+GenericName[ru]  =  Клиент Git
+GenericName[uk]  =  Клієнт Git
+Keywords  =  git; merge; pull; push; repository; sublime-merge; sublime-text; Sublime Merge; Sublime Text;
+Icon  =  sublime-merge
+MimeType  =  text/plain;
+Name  =  Sublime Merge
+StartupNotify  =  true
+StartupWMClass  =  sublime_merge
+Terminal  =  false
+Type  =  Application
+Version  =  1.1
+
+[Desktop Action Window]
+Name = New Window
+Exec = /opt/sublime_merge/sublime_merge -n
+OnlyShowIn = Unity;
+
+[Desktop Action Document]
+Name = New File
+Exec = /opt/sublime_merge/sublime_merge --command new_file
+OnlyShowIn = Unity;

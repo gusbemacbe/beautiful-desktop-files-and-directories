@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment = Apps for Git client to pull, push and merge
+Icon = git
+Name = Git
+Type = Directory
+Version = 1.1

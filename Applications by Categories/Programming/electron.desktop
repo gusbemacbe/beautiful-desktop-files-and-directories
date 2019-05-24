@@ -1,7 +1,9 @@
 [Desktop Entry]
-Type=Application
-Name=Electron
-Icon=electron
-Exec=electron %u
-Categories=Development;GTK;
-StartupNotify=true
+Categories = Development; GNOME; GTK; Programming; WebDevelopment;
+Exec = electron %u
+Icon = electron
+Name = Electron
+StartupNotify = true
+StarupWMClass = electron
+Type = Application
+Version = 1.1

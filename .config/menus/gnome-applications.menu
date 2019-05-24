@@ -45,6 +45,19 @@
 	</Menu>
 
 	<Menu>
+		<Name>Git</Name>
+		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
+		<Directory>Git.directory</Directory>
+		<Include>
+				<Filename>GitKraken.desktop</Filename>
+				<Filename>sublime_merge.desktop</Filename>
+				<Filename>sublime_text.desktop</Filename>
+				<Filename>visual-studio-code-insiders.desktop</Filename>
+		</Include>
+		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
+	</Menu>
+
+	<Menu>
 		<Name>GNOME</Name>
 		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
 		<Directory>GNOME.directory</Directory>
@@ -104,11 +117,41 @@
 		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
 	</Menu>
 
+	<Menu>
+		<Name>Programming</Name>
+		<DirectoryDir>/home/gusbemacbe/.local/share/desktop-directories</DirectoryDir>
+		<Directory>Programming.directory</Directory>
+		<Include>
+				<Filename>assistant.desktop</Filename>
+				<Filename>designer.desktop</Filename>
+				<Filename>electron.desktop</Filename>
+				<Filename>emacs.desktop</Filename>
+				<Filename>GitKraken.desktop</Filename>
+				<Filename>linguist.desktop</Filename>
+				<Filename>meld.desktop</Filename>
+				<Filename>qdbusviewer.desktop</Filename>
+				<Filename>sublime_merge.desktop</Filename>
+				<Filename>sublime_text.desktop</Filename>
+				<Filename>visual-studio-code-insiders.desktop</Filename>
+				<Filename>vsls-launcher.desktop</Filename>
+		</Include>
+		<Include>
+				<Filename>GitKraken.desktop</Filename>
+				<Filename>org.gnome.gedit.desktop</Filename>
+				<Filename>sublime_merge.desktop</Filename>
+				<Filename>sublime_text.desktop</Filename>
+				<Filename>visual-studio-code-insiders.desktop</Filename>
+		</Include>
+		<AppDir>/home/gusbemacbe/.local/share/applications</AppDir>
+	</Menu>
+
 	<Layout>
 		<Menuname>Accessories</Menuname>
 		<Menuname>File Managers</Menuname>
+		<Menuname>Git</Menuname>
 		<Menuname>GNOME</Menuname>
 		<Menuname>Graphics</Menuname>
 		<Menuname>Internet</Menuname>
+		<Menuname>Programming</Menuname>
 	</Layout>
 </Menu>
